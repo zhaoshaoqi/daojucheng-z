@@ -1,0 +1,582 @@
+body,
+h1,
+h2,
+h3,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+hr,
+ul,
+ol,
+td,
+input,
+option,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "微软雅黑";
+    background: #f3f4f6;
+}
+
+#all {
+    background: url(../img/cont-index.jpg) no-repeat top center;
+    background-size: 2000px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+
+input {
+    outline: none;
+}
+
+#box {
+    height: 39px;
+    border-top: 1px solid #e7e8e7;
+}
+
+#box1 {
+    width: 1490px;
+    height: 39px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+#box1 p {
+    display: block;
+    line-height: 39px;
+    font-size: 14px;
+    color: #9f9f9f;
+    position: absolute;
+    right: 120px;
+}
+
+#box1 p a {
+    color: #9f9f9f;
+}
+
+#box2 {
+    width: 15px;
+    height: 20px;
+    background: url(../img/jl.png) no-repeat;
+    background-position: 1px 1px;
+    margin: auto 0;
+}
+
+.tell {
+    font-size: 14px;
+    color: #9f9f9f;
+    line-height: 39px;
+    margin-left: 5px;
+}
+
+.shu {
+    display: block;
+    margin-left: 5px;
+    font-size: 14px;
+    color: #9f9f9f;
+    line-height: 39px;
+}
+
+.game {
+    position: absolute;
+    right: 0;
+    top: 6px;
+    width: 98px;
+    height: 25px;
+    border: 1px solid #9f9f9f;
+    display: flex;
+    justify-content: space-between;
+}
+
+#box1 h4 {
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 12px;
+    margin-top: 3px;
+    color: #9f9f9f;
+}
+
+#box3 {
+    width: 11px;
+    height: 7px;
+    margin-top: 9px;
+    margin-right: 10px;
+    background: url(../img/jl.png) no-repeat;
+    background-position: 0px -24px;
+}
+
+#box4 {
+    width: 1493px;
+    height: 128px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    background: linear-gradient(to right, #2d1522, #0d0f1c);
+}
+
+#box5 {
+    width: 290px;
+    height: 70px;
+    background: url(../img/cfjl.png) no-repeat;
+    background-position: -667px 7px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+#box1 a:hover {
+    text-decoration: underline;
+}
+
+#box1 h4:hover {
+    text-decoration: underline;
+}
+
+#box6 {
+    width: 517px;
+    height: 48px;
+    /* border: 1px solid black; */
+    margin: auto 200px;
+    background: url(../img/cfjl.png) no-repeat;
+    background-position: -1001px -1px;
+    display: flex;
+    cursor: pointer;
+}
+
+#box6 input {
+    width: 517px;
+    height: 48px;
+    border: none;
+    text-indent: 10px;
+    font-size: 18px;
+    background: none;
+}
+
+#box7 {
+    width: 50px;
+    height: 48px;
+    cursor: pointer;
+    margin-right: -50px;
+    background: #7c7285;
+}
+
+#box8 {
+    width: 240px;
+    height: 75px;
+    background: url(../img/cfjl.png) no-repeat;
+    background-position: -427px -2px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+#box9 {
+    width: 20px;
+    height: 20px;
+    background: url(../img/cfjl.png) no-repeat;
+    background-position: -958px -5px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#box10 {
+    width: 1493px;
+    height: 98px;
+    background: black;
+    margin: 0 auto;
+}
+
+#box10 ul li {
+    float: left;
+}
+
+#box10 ul li a {
+    display: block;
+    width: 168px;
+    height: 98px;
+    text-align: center;
+    line-height: 98px;
+    font-size: 22px;
+    color: #9f9f9f;
+}
+
+#box10 ul li a:hover {
+    color: #ef4141;
+}
+
+#box10 ul li:nth-child(1) a {
+    display: block;
+    width: 190px;
+    height: 98px;
+    color: white;
+    font-size: 22px;
+    font-weight: 900;
+    background: url(../img/cfjl.png) no-repeat;
+    background-position: -337px -5px;
+    background-size: 1250%;
+}
+
+#box10 h5 a {
+    width: 203px;
+    text-align: center;
+    font-size: 22px;
+    color: #ef4141;
+    font-weight: normal;
+    float: right;
+    line-height: 98px;
+}
+
+#box11 {
+    width: 1493px;
+    height: 62px;
+    background: #27292b;
+    margin: 0 auto;
+}
+
+#box11 ul li {
+    float: left;
+}
+
+#box11 ul li a {
+    display: block;
+    width: 149px;
+    height: 62px;
+    text-align: center;
+    line-height: 62px;
+    color: #9f9f9f;
+    font-size: 18px;
+}
+
+#box11 ul li a:hover {
+    font-weight: 900;
+    color: white;
+}
+
+#box11 ul li .all {
+    background: #363738;
+    font-weight: 900;
+    color: white;
+}
+
+#box12 {
+    width: 1491px;
+    height: 471px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+}
+
+#box13 {
+    width: 277px;
+    height: 465px;
+    margin-top: 6mpx;
+}
+
+#box14 #box15 {
+    width: 52px;
+    height: 56px;
+    margin-left: 10px;
+}
+
+#box14 {
+    display: flex;
+    width: 277px;
+    height: 120px;
+    background: #27292b;
+}
+
+#box14 #box15 img {
+    width: 52px;
+    border-radius: 50%;
+    display: block;
+    margin-top: 25px;
+}
+
+#box14 p {
+    font-size: 14px;
+    color: #999999;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#box14 p a {
+    color: #1994eb;
+}
+
+#box14 p a:hover {
+    text-decoration: underline;
+}
+
+#box16 {
+    width: 277px;
+    height: 192px;
+    background: #27292b;
+    position: relative;
+}
+
+#box16 p {
+    font-size: 16px;
+    text-indent: 15px;
+    color: #999999;
+}
+
+#ding {
+    width: 177px;
+    height: 50px;
+}
+
+#box16 .bang {
+    display: block;
+    position: absolute;
+    right: 15px;
+    line-height: 50px;
+    color: #1994eb;
+}
+
+#box17 {
+    width: 20px;
+    height: 20px;
+    background: url(../img/cfindex.png) no-repeat;
+    background-position: -32px -796px;
+}
+
+#box19 {
+    width: 20px;
+    height: 20px;
+    background: url(../img/cfindex.png) no-repeat;
+    background-position: -5px -819px;
+}
+
+#box20 {
+    width: 20px;
+    height: 20px;
+    background: url(../img/cfindex.png) no-repeat;
+    background-position: -5px -714px;
+}
+
+#box18 {
+    display: flex;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+#box18 a {
+    font-size: 20px;
+    color: #999999;
+    margin-left: 5px;
+}
+
+#box18:hover a {
+    color: #ef4141;
+    text-decoration: underline;
+}
+
+#box18:hover #box17 {
+    background-position: -5px -796px;
+}
+
+#box18:hover #box19 {
+    background-position: -92px -651px;
+}
+
+#box18:hover #box20 {
+    background-position: -93px -685px;
+}
+
+#box21 {
+    width: 277px;
+    height: 150px;
+    margin-top: 10px;
+    background: #27292b;
+}
+
+#box22 a {
+    display: block;
+    font-size: 12px;
+    color: #666666;
+    margin-right: 27px;
+    line-height: 43px;
+}
+
+#box22 a:hover {
+    text-decoration: underline;
+}
+
+#box22 h6 {
+    line-height: 43px;
+    margin-left: 14px;
+    font-size: 20px;
+    color: #999999;
+}
+
+#box22 {
+    width: 275px;
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#box23 {
+    width: 276px;
+    height: 116px;
+}
+
+#box23 p {
+    display: flex;
+    justify-content: space-between;
+}
+
+#box23 p a {
+    font-size: 14px;
+    color: #999999;
+    line-height: 28px;
+    width: 165px;
+    height: 28px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+#box23 p a:hover {
+    text-decoration: underline;
+}
+
+#box23 span {
+    font-size: 14px;
+    color: #666666;
+    margin-right: 25px;
+}
+
+#box24 {
+    width: 962px;
+    height: 465px;
+    background: pink;
+    margin-top: 6px;
+    margin-left: 9px;
+}
+
+#box25 {
+    width: 233px;
+    height: 463px;
+    margin-top: 6px;
+    margin-left: 9px;
+}
+
+#box26 {
+    width: 233px;
+    height: 95px;
+    background: url(../img/cfindex.png) no-repeat;
+    background-position: -7px -388px;
+    background-size: 247px;
+}
+
+#box26 a {
+    width: 233px;
+    height: 95px;
+    display: block;
+    font-size: 28px;
+    color: #efd4c9;
+    line-height: 95px;
+    text-indent: 80px;
+}
+
+#box26:hover {
+    background-position: -7px -496px;
+}
+
+#box27 {
+    width: 233px;
+    height: 95px;
+    margin-top: 7px;
+    background: url(../img/cfindex.png) no-repeat;
+    background-position: -7px -603px;
+    background-size: 247px;
+}
+
+#box27 a {
+    width: 233px;
+    height: 95px;
+    display: block;
+    font-size: 28px;
+    color: #efd4c9;
+    line-height: 95px;
+    text-indent: 80px;
+}
+
+#box27:hover {
+    background-position: -7px -711px;
+}
+
+#box26:hover a {
+    color: white;
+}
+
+#box27:hover a {
+    color: white;
+}
+
+#box28 {
+    width: 233px;
+    height: 260px;
+    margin-top: 7px;
+    background: #27292a;
+}
+
+#box29 {
+    width: 194px;
+    height: 194px;
+    margin: 19px auto;
+    background: url(../img/cfindex.png) no-repeat;
+    background-position: 1px 1px;
+}
+
+#box28 #box29 .djc {
+    display: block;
+    margin-left: 35px;
+    padding-top: 32px;
+}
+
+#box29 span {
+    display: block;
+    font-size: 20px;
+    color: #999999;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#box30 {
+    width: 1493px;
+    height: 423px;
+    background: yellow;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#box31 {
+    width: 1190px;
+    height: 61px;
+    background: blue;
+    display: flex;
+}
+
+#box31 a {
+    display: block;
+    width: 157px;
+    height: 61px;
+}
