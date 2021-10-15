@@ -4,10 +4,11 @@ let { src, dest, watch } = require('gulp'),
     rename = require('gulp-rename'),
     uglify = require('gulp-uglify'),
     babel = require('gulp-babel'),
+    htmlmin = require('gulp-htmlmin'),
     imagemin = require('gulp-imagemin');
 
 function fnIndex() {
-    return src('./src/prop.html')
+    return src('./src/index.html')
         .pipe(dest('./dist'));
 }
 
@@ -47,7 +48,7 @@ function fnHTML() {
 }
 
 function fnWatch() {
-    watch('./src/prop.html', fnCopyProp);
+    watch('./src/index.html', fnIndex);
     watch('./src/sass/', fnCSS);
     watch('./src/js/*.js', fnJS);
     watch('./src/lib/*', fnCopyLib);
